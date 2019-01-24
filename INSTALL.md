@@ -1,11 +1,13 @@
 # Installation Guide
 
 ## Requirements
- - VirtualBox, version 5.0.10 minimum
+ - VirtualBox, version 5.0.10 minimum - 5.2.X maximum (VirualBox 6.X does not support 32bit boxes)
  - Vagrant, version 1.7 minimum
 
 > it's expected to NOT WORK with vagrant 1.5.x; 1.6.x etc ..
 > Please check your version and upgrade manually if needed, for ubuntu it's easy to upgrade the package manually. See below  
+
+> vqfx boxes will not work with VirualBox 6 -- do to support for 32bit boxes being dropped.  Download the latest 5.2 version.
 
 For Linux and MacOS, some examples require:
  - Ansible
